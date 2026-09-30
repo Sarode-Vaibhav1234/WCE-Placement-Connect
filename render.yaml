@@ -14,7 +14,7 @@ services:
       - key: PORT
         value: 10000
       - key: CLIENT_URL
-        sync: false
+        value: https://wce-placement-connect-client.vercel.app
       - key: MONGO_URI
         sync: false
       - key: MONGO_DB
